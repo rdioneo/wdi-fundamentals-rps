@@ -26,8 +26,8 @@ function getPlayerMove(move) {
     // If a `move` has a value, your expression should evaluate to that value.
     // However, if `move` is not specified / is null, your expression should equal `getInput()`.
     return
-     if (move > 0) {
-    console.log (move);
+    if (move > 0) {
+        console.log (move);
     } else if (move = 0 ||'') {
         console.log ('getInput()');
     } else {
